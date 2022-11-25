@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Library App</title>
+
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/deskripsicss.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <img src="images/dilanful.jpeg" alt="Image Error" style="width: 100vw; height:25vw; margin-left: -1%;">
+        <a href="./index.html">
+            <img src="images/leftar.svg" alt="Image Error" class="buttonimg">
+        </a>
+
+    </div>
+    <div class="container-fluid" style="text-align: right; margin-left: -5%; margin-top: -10%;">
+        <div class="actionText">
+            <p style="cursor: pointer;" ><span><a style="color: white;"
+                        onclick="document.getElementById('id01').style.display='block'">Edit</a></span>
+                        <span><a style="color: white;"
+                            onclick="document.getElementById('id02').style.display='block'">Delete</a></span>
+            </p>
+        </div>
+        <img src="images/dilanful.jpeg" alt="" class="logobuku">
+    </div>
+    <div class="text">
+        <p>Novel</p>
+        <h1>Dilan 1990</h1>
+        <h6>30 Juni 2019</h6>
+        <h3>Available</h3>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac diam eget est rutrum ultrices. Donec
+            laoreet enim a massa dapibus, cursus egestas dui pulvinar. Proin sit amet accumsan lectus. Nullam auctor
+            auctor consequat. Donec semper magna erat, sed fringilla lacus pretium eget. Cras porttitor, nibh sit amet
+            interdum bibendum, nibh velit accumsan tellus, vel vehicula tellus leo vitae ipsum. Praesent sit amet libero
+            sed orci ullamcorper efficitur. Pellentesque in euismod purus, sit amet ultrices tortor. Vestibulum ante
+            dui, tempor at dui id, tincidunt euismod diam. Integer pellentesque massa nibh, ac eleifend odio malesuada
+            sed. Phasellus orci sem, cursus nec orci ut, accumsan facilisis lacus. Nullam at elementum nibh, ac gravida
+            felis. In sagittis rhoncus nisi tempus dignissim. Sed fringilla consequat ante vitae lobortis. Cras posuere
+            ligula vel enim suscipit malesuada. Vivamus non nulla ut ante imperdiet euismod quis nec massa.</h5>
+    </div>
+    <div class="buttonBorrow">
+        <button type="button" class="btn btn-warning"
+            style="width: 200px; height:80px; border-radius: 20px; box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);">
+            <p class="textTbl">Borrow</p>
+        </button>
+    </div>
+    <div class="popup">
+        <div id="id01" class="w3-modal">
+            <div class="popup">
+                <div class="w3-modal-content" style="border-radius: 10px;">
+                    <div class="w3-container">
+                        <span onclick="document.getElementById('id01').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <div class="contentpopup">
+                            <h1>Edit Data</h1>
+                            <div class="input-group mb-3">
+                                <h3>Url Image</h3>
+                                <input type="text" class="form-control" placeholder="Http://gambar.com/dilan.jpg"
+                                    aria-label="Http://gambar.com/dilan.jpg" aria-describedby="basic-addon2" style="margin-left: 4%;">
+                            </div>
+                            <div class="input-group mb-3">
+                                <h3>Title</h3>
+                                <input type="text" class="form-control" placeholder="Dilan 1990"
+                                    aria-label="Dilan 1990" aria-describedby="basic-addon2" style="margin-left: 9.5%;">
+                            </div>
+                            <div class="input-group mb-3">
+                                <h3>Description</h3>
+                                <input type="text" class="form-control" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac diam eget est rutrum ultrices. Donec laoreet enim a massa dapibus, cursus egestas dui pulvinar."
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2" style="height: 100px;">
+                            </div>
+                            <div class="buttonSave">
+                                <button type="button" class="btn btn-warning"
+                                    style="width: 200px; height:50px; border-radius: 20px; box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);">
+                                    <p class="textSv">Save</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup">
+        <div id="id02" class="w3-modal">
+            <div class="popup">
+                <div class="w3-modal-content" style="border-radius: 10px;">
+                    <div class="w3-container">
+                        <span onclick="document.getElementById('id02').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <div class="contentDelete">
+                            <img src="images/checked.png" alt="" class="imgCheck">
+                            <h1 style="padding-bottom: 10%;">Data <span><b>Dilan 1990</b></span> berhasil dihapus !</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

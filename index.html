@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link href="css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/carousel.css" />
+    <script defer src="js/carousel.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Library</title>
+</head>
+
+<body>
+    <aside class="sidebar">
+
+        <div class="toggle">
+            <a href="#" class="burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
+                <span></span>
+            </a>
+        </div>
+
+        <div class="side-inner">
+
+            <div class="profile">
+                <img src="images/niki.jpg" alt="Image" class="img-fluid">
+                <h1 class="name">Niki Zefanya</h1>
+                <a href="./login.html">
+                    <button type="button" class="btn btn-outline-secondary"><i class="bi bi-box-arrow-right"><span
+                                class="logout">Logout</span></i></button>
+                </a>
+            </div>
+
+
+            <div class="nav-menu">
+                <ul>
+                    <h2>Explore</h2>
+                    <h2>History</h2>
+                    <h2><a tyle="color: white; cursor: pointer;"
+                        onclick="document.getElementById('id01').style.display='block'">Add Book*</a></h2>
+                </ul>
+            </div>
+        </div>
+
+    </aside>
+    <main>
+        
+        <!-- navbar content -->
+        <div class="shadow  mb-12 bg-white rounded">
+            <div class="navbar">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white d-inline-flex p-2">
+                    <div class="container justify-content-around ">
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <div class="navAtas">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown">
+                                            All Categories </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#"> Kosong </a></li>
+                                            <li><a class="dropdown-item" href="#"> Kosong </a>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="navAtas2">
+                                <div class="collapse navbar-collapse" id="main_nav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-dark" href="#"
+                                                data-toggle="dropdown"> All Time</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#"> Kosong </a></li>
+                                                <li><a class="dropdown-item" href="#"> Kosong </a>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="searchBar">
+                                <form action="">
+                                    <div class="input-group mb-1 border rounded-pill p-1">
+                                        <div class="input-group-prepend border-0">
+                                            <button id="button-addon4" type="button" class="btn btn-link text-info"><i
+                                                    class="bi bi-search"></i></button>
+                                        </div>
+                                        <input type="search" placeholder="Search Book" aria-describedby="button-addon4"
+                                            class="form-control bg-none border-0">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="logoApp">
+                                <img src="./images/book.png" alt="">
+                            </div>
+                            <div class="nameApp">
+                                <h1>Library</h1>
+                            </div>
+                        </div>
+                </nav>
+            </div>
+        </div>
+        <!-- carousel content -->
+        <div id="prev" class="tombolKiri">
+            <h1 class="bi bi-arrow-left-circle"></h1>
+        </div>
+        <div id="next" class="tombolKanan">
+            <h1 class="bi bi-arrow-right-circle"></h1>
+        </div>
+        <div class="container" >
+            <div class="row justify-content-md-center" >
+                <div class="col col-lg-12" style="width: 100%;">
+                    <main id="karosel">
+                        <div id="carousel">
+            
+                            <div class="hideLeft">
+                                <img src="images/ubur.png">
+                                <div class="bottom-left">
+                                    <h3>Ubur-Ubur Lembur</h3>
+                                    <h6>Raditya Dika</h6>
+                                </div>
+                            </div>
+            
+                            <div class="prevLeftSecond">
+                                <img src="images/ubur.png">
+                                <div class="bottom-left">
+                                    <h3>Ubur-Ubur Lembur</h3>
+                                    <h6>Raditya Dika</h6>
+                                </div>
+                            </div>
+            
+                            <div class="prev">
+                                <img src="images/ubur.png">
+                                <div class="bottom-left">
+                                    <h3>Ubur-Ubur Lembur</h3>
+                                    <h6>Raditya Dika</h6>
+                                </div>
+                            </div>
+            
+                            <div class="selected">
+                                <img src="images/ubur.png">
+                                <div class="bottom-left">
+                                    <h3>Ubur-Ubur Lembur</h3>
+                                    <h6>Raditya Dika</h6>
+                                </div>
+                            </div>
+            
+                            <div class="next">
+                                <img src="images/ubur.png">
+                                <div class="bottom-left">
+                                    <h3>Ubur-Ubur Lembur</h3>
+                                    <h6>Raditya Dika</h6>
+                                </div>
+                            </div>
+            
+                            <div class="nextRightSecond">
+                                <img src="images/ubur.png">
+                                <div class="bottom-left">
+                                    <h3>Ubur-Ubur Lembur</h3>
+                                    <h6>Raditya Dika</h6>
+                                </div>
+                            </div>
+            
+                            <div class="hideRight">
+                                <img src="images/ubur.png">
+                                <div class="bottom-left">
+                                    <h3>Ubur-Ubur Lembur</h3>
+                                    <h6>Raditya Dika</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div style="width: 100%;" class="d-flex justify-content-around">
+                <div class="card" style="width: 25rem; border-radius: 20px ; ">
+                    <img class="card-img-top" style="height: 300px; border-radius: 20px 20px 0px 0px; "
+                        src="./images/laskarpelangi.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="./deskripsi.html">
+                            <h5 class="card-title" style="text-align: center; font-weight: 900; font-size: 30px; color: black;">Laskar
+                                Pelangi</h5>
+                        </a>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis
+                            lacus mi, sit amet vehicula nisl consequat id. </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem; border-radius: 20px;">
+                    <img class="card-img-top" style="height: 300px; border-radius: 20px 20px 0px 0px;"
+                        src="./images/laskarpelangi.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="./deskripsi.html">
+                            <h5 class="card-title" style="text-align: center; font-weight: 900; font-size: 30px; color: black;">Laskar
+                                Pelangi</h5>
+                        </a>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis
+                            lacus mi, sit amet vehicula nisl consequat id. </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem; border-radius: 20px  ;">
+                    <img class="card-img-top" style="height: 300px; border-radius: 20px 20px 0px 0px;"
+                        src="./images/laskarpelangi.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="./deskripsi.html">
+                            <h5 class="card-title" style="text-align: center; font-weight: 900; font-size: 30px; color: black;">Laskar
+                                Pelangi</h5>
+                        </a>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis
+                            lacus mi, sit amet vehicula nisl consequat id. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script defer src="js/carousel.js"></script>
+    <script>
+        function moveToSelected(element) {
+            if (element == "next") {
+                var selected = $(".selected").next();
+            } else if (element == "prev") {
+                var selected = $(".selected").prev();
+            } else {
+                var selected = element;
+            }
+
+            var next = $(selected).next();
+            var prev = $(selected).prev();
+            var prevSecond = $(prev).prev();
+            var nextSecond = $(next).next();
+
+            $(selected).removeClass().addClass("selected");
+
+            $(prev).removeClass().addClass("prev");
+            $(next).removeClass().addClass("next");
+
+            $(nextSecond).removeClass().addClass("nextRightSecond");
+            $(prevSecond).removeClass().addClass("prevLeftSecond");
+
+            $(nextSecond).nextAll().removeClass().addClass("hideRight");
+            $(prevSecond).prevAll().removeClass().addClass("hideLeft");
+        }
+
+        // Eventos teclado
+        $(document).keydown(function (e) {
+            switch (e.which) {
+                case 37: // left
+                    moveToSelected("prev");
+                    break;
+
+                case 39: // right
+                    moveToSelected("next");
+                    break;
+
+                default:
+                    return;
+            }
+            e.preventDefault();
+        });
+
+        $("#carousel div").click(function () {
+            moveToSelected($(this));
+        });
+
+        $("#prev").click(function () {
+            moveToSelected("prev");
+        });
+
+        $("#next").click(function () {
+            moveToSelected("next");
+        });
+
+    </script>
+     <div class="popup">
+        <div id="id01" class="w3-modal">
+            <div class="popup">
+                <div class="w3-modal-content" style="border-radius: 10px;">
+                    <div class="w3-container">
+                        <span onclick="document.getElementById('id01').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <div class="contentpopup">
+                            <h1>Add Data</h1>
+                            <div class="input-group mb-3">
+                                <h3>Url Image</h3>
+                                <input type="text" class="form-control" placeholder=""
+                                    aria-label="Http://gambar.com/dilan.jpg" aria-describedby="basic-addon2" style="margin-left: 4%;">
+                            </div>
+                            <div class="input-group mb-3">
+                                <h3>Title</h3>
+                                <input type="text" class="form-control" placeholder=""
+                                    aria-label="Dilan 1990" aria-describedby="basic-addon2" style="margin-left: 10.5%;">
+                            </div>
+                            <div class="input-group mb-3">
+                                <h3>Description</h3>
+                                <input type="text" class="form-control" placeholder=""
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2" style="height: 100px;">
+                            </div>
+                            <div class="buttonSave">
+                                <button type="button" class="btn btn-warning"
+                                    style="width: 200px; height:50px; border-radius: 20px; box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);">
+                                    <p class="textSv">Save</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
